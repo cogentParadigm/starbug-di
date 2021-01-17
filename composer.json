@@ -1,0 +1,22 @@
+{
+  "name": "starbug/di",
+  "description": "A dependency injection container initialization library.",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ali Gangji",
+      "homepage": "https://github.com/cogentParadigm"
+    }
+  ],
+  "require-dev": {
+    "starbug/devel": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starbug\\DI\\": "src/"
+    }
+  },
+  "require": {
+    "php-di/php-di": "^6.0"
+  }
+}
